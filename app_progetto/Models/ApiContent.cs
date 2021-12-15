@@ -6,11 +6,6 @@ using System.Threading.Tasks;
 namespace app_progetto.Models
 {
 
-    public class ListApi
-    {
-        public ApiContent api;
-    }
-
 
     public class ApiContent
     {
