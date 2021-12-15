@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "80AqyssShhXZ1yINzCAqBKOAZP83eNO515CswMagw+ZGqPb3Z/kEbuyNXf9tzTng7xLzDBc6Q71Z0+dxcLv5IQ==",
+  "dgSpecHash": "MTKyrDJ3wcg9w6BRdsgLSnBKm98lh8UmS382FGTdeQslMdBeDYp3N5aU0MB4FIaBTgNiaoC9u7q9wxIezeKfZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Francesca\\source\\repos\\app_progetto\\app_progetto\\app_progetto.csproj",
+  "projectFilePath": "C:\\Users\\Francesca\\Desktop\\Progetto_azure\\Progetto_Colloquio\\app_progetto\\app_progetto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Francesca\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

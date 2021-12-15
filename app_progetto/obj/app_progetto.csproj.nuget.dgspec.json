@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Francesca\\source\\repos\\app_progetto\\app_progetto\\app_progetto.csproj": {}
+    "C:\\Users\\Francesca\\Desktop\\Progetto_azure\\Progetto_Colloquio\\app_progetto\\app_progetto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Francesca\\source\\repos\\app_progetto\\app_progetto\\app_progetto.csproj": {
+    "C:\\Users\\Francesca\\Desktop\\Progetto_azure\\Progetto_Colloquio\\app_progetto\\app_progetto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Francesca\\source\\repos\\app_progetto\\app_progetto\\app_progetto.csproj",
+        "projectUniqueName": "C:\\Users\\Francesca\\Desktop\\Progetto_azure\\Progetto_Colloquio\\app_progetto\\app_progetto.csproj",
         "projectName": "app_progetto",
-        "projectPath": "C:\\Users\\Francesca\\source\\repos\\app_progetto\\app_progetto\\app_progetto.csproj",
+        "projectPath": "C:\\Users\\Francesca\\Desktop\\Progetto_azure\\Progetto_Colloquio\\app_progetto\\app_progetto.csproj",
         "packagesPath": "C:\\Users\\Francesca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Francesca\\source\\repos\\app_progetto\\app_progetto\\obj\\",
+        "outputPath": "C:\\Users\\Francesca\\Desktop\\Progetto_azure\\Progetto_Colloquio\\app_progetto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Francesca\\AppData\\Roaming\\NuGet\\NuGet.Config",

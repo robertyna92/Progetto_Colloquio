@@ -46,21 +46,8 @@ namespace app_progetto.Controllers
                     title = resObj.title,
                     url = resObj.url
                 };
-                
-                //Debug.WriteLine("_____Risposta Object_______ " + api);
             return View(api);
         }
-
-
-        //public ActionResult Create()
-        //{
-        //    var url = "https://api.nasa.gov/planetary/apod?api_key=VElNBHxm54DIrE6CnNhrfNWMUVanqzmaEO3B8v4u";
-        //    var jsonResp = JsonConvert.DeserializeObject(url).ToString();
-        //    var resObj = JsonConvert.DeserializeObject<ApiContent>(jsonResp);
-        //    Console.WriteLine("_____Risposta Object_______ " + resObj);
-
-        //    return View();
-        //}
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
