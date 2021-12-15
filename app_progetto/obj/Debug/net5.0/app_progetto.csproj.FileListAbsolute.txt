@@ -38,3 +38,5 @@ C:\Users\Francesca\source\repos\app_progetto\app_progetto\obj\Debug\net5.0\ref\a
 C:\Users\Francesca\source\repos\app_progetto\app_progetto\obj\Debug\net5.0\app_progetto.pdb
 C:\Users\Francesca\source\repos\app_progetto\app_progetto\obj\Debug\net5.0\app_progetto.genruntimeconfig.cache
 C:\Users\Francesca\source\repos\app_progetto\app_progetto\obj\Debug\net5.0\app_progetto.csproj.CopyComplete
+C:\Users\Francesca\source\repos\app_progetto\app_progetto\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Francesca\source\repos\app_progetto\app_progetto\obj\Debug\net5.0\Razor\Views\Api\ShowApi.cshtml.g.cs

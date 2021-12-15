@@ -1,9 +1,11 @@
 ﻿using app_progetto.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace app_progetto.Controllers
@@ -25,8 +27,40 @@ namespace app_progetto.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            var url = "https://api.nasa.gov/planetary/apod?api_key=VElNBHxm54DIrE6CnNhrfNWMUVanqzmaEO3B8v4u";
+            var webClient = new WebClient();
+            
+            var json = webClient.DownloadString(url);
+            var jsonRes = JsonConvert.DeserializeObject(json).ToString();
+        
+            var resObj = JsonConvert.DeserializeObject<ApiContent>(jsonRes);
+
+                ApiContent api = new ApiContent
+                {                       
+                    copyright = resObj.copyright,
+                    date = resObj.date,
+                    explanation = resObj.explanation,
+                    hdurl = resObj.hdurl,
+                    media_type = resObj.media_type,
+                    service_version = resObj.service_version,
+                    title = resObj.title,
+                    url = resObj.url
+                };
+                
+                //Debug.WriteLine("_____Risposta Object_______ " + api);
+            return View(api);
         }
+
+
+        //public ActionResult Create()
+        //{
+        //    var url = "https://api.nasa.gov/planetary/apod?api_key=VElNBHxm54DIrE6CnNhrfNWMUVanqzmaEO3B8v4u";
+        //    var jsonResp = JsonConvert.DeserializeObject(url).ToString();
+        //    var resObj = JsonConvert.DeserializeObject<ApiContent>(jsonResp);
+        //    Console.WriteLine("_____Risposta Object_______ " + resObj);
+
+        //    return View();
+        //}
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

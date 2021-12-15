@@ -1,6 +1,20 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+﻿@model app_progetto.Models.ApiContent
 
-<p>Use this page to detail your site's privacy policy.</p>
+<h1> NASA Astronomy Picture Of The Days</h1>
+
+<h2>  @Html.DisplayFor(item => item.title)</h2>
+<p> Date: @Html.DisplayFor(item => item.date)</p>
+<img src="@Html.DisplayFor(item => item.hdurl)" width="500" ; height="500" />
+<p> explanation: @Html.DisplayFor(item => item.explanation)</p>
+<p>  @Html.DisplayFor(item => item.media_type)</p>
+<img src="@Html.DisplayFor(item => item.url)" width="500" ; height="500" />
+<p> Copriryght: @Html.DisplayFor(item => item.copyright)</p>
+<p> service_version: @Html.DisplayFor(item => item.service_version)</p>
+
+
+
+
+
+
+
+
