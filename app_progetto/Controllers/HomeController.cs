@@ -19,12 +19,12 @@ namespace app_progetto.Controllers
             _logger = logger;
         }
 
-        [BasicAuthorize]
+        
         public IActionResult Index()
         {
             return View();
         }
-
+        [BasicAuthorize]
         public IActionResult Privacy()
         {
             var url = "https://api.nasa.gov/planetary/apod?api_key=VElNBHxm54DIrE6CnNhrfNWMUVanqzmaEO3B8v4u";
