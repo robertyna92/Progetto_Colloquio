@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L+c6qU7yvza6uW9CP7vK9Ce3qAyksDxOuo1Lb2U0NrScpmBEoHB2iRAihsa1QCFUlQIPZ4ipLanKDKK1ai0LMg==",
+  "dgSpecHash": "E91LhPNXhD8thlTjfd4VzmKXqvenXHKvNuyuw4F5Nj6JEAr2BFeATjUZ47/ZisfHUcnTT6UZxpfg8za3LOl4Uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Francesca\\Desktop\\Progetto_azure\\Progetto_Colloquio\\app_progetto\\app_progetto.csproj",
+  "projectFilePath": "C:\\Users\\Francesca\\Desktop\\Nuovo_progetto\\Progetto_Colloquio\\app_progetto\\app_progetto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Francesca\\.nuget\\packages\\caliburn.micro\\4.0.173\\caliburn.micro.4.0.173.nupkg.sha512",
     "C:\\Users\\Francesca\\.nuget\\packages\\caliburn.micro.core\\4.0.173\\caliburn.micro.core.4.0.173.nupkg.sha512",

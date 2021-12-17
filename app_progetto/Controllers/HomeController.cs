@@ -2,11 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using System;
 using System.Diagnostics;
-using System.Linq;
+
 using System.Net;
-using System.Threading.Tasks;
+
 
 namespace app_progetto.Controllers
 {
