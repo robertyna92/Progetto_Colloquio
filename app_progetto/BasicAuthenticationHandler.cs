@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using Caliburn.Micro;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -32,6 +33,7 @@ namespace app_progetto
 
             if (!Request.Headers.ContainsKey("Authorization"))
             {
+                WindowManager
                 return Task.FromResult(AuthenticateResult.Fail("Authorization header missing."));
             }
 

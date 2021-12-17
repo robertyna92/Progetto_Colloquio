@@ -1,9 +1,19 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-<script type="text/javascript">
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/myStyle.css" />
+</head>
+<body class="sfondo">
+    <h1 class="myTitle"> Welcome to Nasa Api </h1>
+    <div class="myButton">
+        <button id="button" class="btn btn-info">Click me</button>
+    </div>
+    <div id="iframeHolder" class="myIframe"></div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
     $(function () {
         $('#button').click(function () {
             if (!$('#iframe').length) {
@@ -11,7 +21,6 @@
             }
         });
     });
-</script>
-
-<button id="button" class="btn-light">Button</button>
-<div id="iframeHolder"></div>
+    </script>
+</body>
+</html>

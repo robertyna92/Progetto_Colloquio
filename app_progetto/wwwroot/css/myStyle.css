@@ -1,0 +1,40 @@
+﻿body {
+}
+
+.myButton {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.myIframe {
+    display: flex;
+    justify-content: center;
+}
+
+.myDate {
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.containerIframe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.sfondo {
+    width:100%;
+    height:auto;
+    background-image:url("../img/galassia.jpg");
+   
+}
+
+.myTitle{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 5px;
+    text-align:center
+}
